@@ -1,0 +1,244 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Form</title>
+<link rel="stylesheet" type='text/css' href="{% static '/css/main.css' %}">
+</head>
+<body>
+<div class="form-container">
+    <div class="bar">
+       <strong>PERSON'S IDENTITY CARD FORM</strong>
+    </div>
+    <div> 
+    <form class="outer-fieldset">
+        <!-- Remove outer fieldset here -->
+        <fieldset class="from1">
+            <fieldset class="inner-fieldset">
+                <!--<img src="comsats.jpg" alt="logo" width="100" height="150">-->
+                <img src="{% static 'images/comsats.jpg'%}"  width='100px' height='120px'>
+                <!-- <p>Clip attested <br> (backside) <br> Passport size <br> photograph</p> -->
+            </fieldset>
+            <label for="personal no">Personal no:</label>
+            <input type="text1" id="personal no" name="personal no" style="width: calc(20ch + 14px);">
+            <label for="netired as/Designation">Retired as/Designation:</label>
+            <input type="text1" name="retired as/Designation" style="width: calc(20ch + 14px);"><br>
+            <!-- <img width="50px" height="50px" src="twi.png" alt=""><br> -->
+            <label for="date of retirement">Date of retirement:</label>
+            <input type="text1" name="date of retirement" style="width: calc(20ch + 16px);">                                                                        
+                
+            <label for="bps" >BPS:</label>
+            <input  class="bps" type="text1"  name="bps" style="width: calc(10ch + 12px);">
+            <label for="bps">(BPS at the time of requirement)</label>
+        
+            <br>
+            <label for="department">Department:&nbsp;</label>
+            <input type="text1" name="department" style="width: calc(20ch + 12px);">
+            <label for="district">District:</label>
+            <input type="text1" name="district" style="width: calc(20ch + 12px);"><br>
+            <label for="dealing account office">Dealing account office:</label>
+            <input type="text1" name="dealing account office" style="width: calc(20ch + 12px);">
+        </fieldset>
+    </form>
+    </div>
+    
+    <div>
+        <fieldset>
+            
+        
+            <form>
+            
+                <label for="fname">1. New CNIC No: &nbsp;</label>
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" class="input" maxlength="1" required value="-">
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" class="input" maxlength="1" required value="-">
+                <input type="text" maxlength="1" class="input" required>
+            </form>
+
+            <br>
+
+            <form>
+                
+                    <label for="fname">2. Name: &nbsp;&nbsp;</label>
+                    <input type="text" class="input" maxlength="1" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                    <input type="text" maxlength="1" class="input" required>
+                
+            </form>
+            <br>
+            <form>
+                
+                <label for="fname">3.Father's/Husband:&nbsp;&nbsp;</label>
+                <input type="text" class="input" maxlength="1" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+                <input type="text" maxlength="1" class="input" required>
+            
+            </form>
+            <br>
+            <form>
+                <label for="fname">4. Date of Birth: &nbsp;&nbsp;</label>
+                <input style="padding: 0px; margin: 0px;" type="text" maxlength="1" class="input" required>
+                <input style="padding: 0px; margin: 0px;" type="text" maxlength="1" class="input" required>
+                <input style="padding: 0px; margin: 0px;" type="text" maxlength="1" class="input" required>
+                <input style="padding: 0px; margin: 0px;" type="text" maxlength="1" class="input" required>
+                <input style="padding: 0px; margin: 0px;" type="text" maxlength="1" class="input" required>
+                <input style="padding: 0px; margin: 0px;" type="text" maxlength="1" class="input" required>
+                <input style="padding: 0px; margin: 0px;" type="text" maxlength="1" class="input" required>
+                <input style="padding: 0px; margin: 0px;" type="text" maxlength="1" class="input" required>
+                <input style="padding: 0px; margin: 0px;" type="text" maxlength="1" class="input" required>
+                <input style="padding: 0px; margin: 0px;" type="text" maxlength="1" class="input" required>
+            </form>
+            <br>
+            <form>
+                <label for="gender">5. Gender:&nbsp;&nbsp;</label>
+                    <input type="text" id="gender" class="holdergroup"  placeholder="    Male   |   Female">
+            </form>
+            <br>
+           
+         
+        <form>
+            <!-- <legend>User Information:</legend>   -->
+            <label for="fname">7. Blood Group:</label>&nbsp;
+            <input type="text1" id="fname" name="fname"  style="border-bottom: 1px solid black; width: calc(21ch + 14px); padding: 2px;"><br>
+        </form>
+        <form>
+            <!-- <legend>User Information:</legend>   -->
+            <label for="fname">8. Mark of Identification:</label>&nbsp;
+            <input type="text1" id="fname" name="fname"  style="border-bottom: 1px solid black; width: calc(35ch + 14px); padding: 2px;"><br>
+        </form>  
+        <form>
+            <!-- <legend>User Information:</legend>   -->
+            <label for="fname">9. Residence:</label>&nbsp;
+            <input type="text1" id="fname" name="fname"  style="border-bottom: 1px solid black; width: calc(35ch + 14px); padding: 2px;">
+            <label for="fname">Cell:</label>&nbsp;
+            <input type="text1" id="fname" name="fname"  style="border-bottom: 1px solid black; width: calc(35ch + 14px); padding: 2px;"><br>
+        </form>   
+        <form>
+            <label for="status">6. Marital Status:&nbsp;&nbsp;</label>
+            <table style="border: 1px solid black; border-collapse: collapse;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <tr>
+                    <td style="border: 1px solid black; padding: 5px;">Married</td>
+                    <td style="border: 1px solid black; padding: 5px;">Single</td>
+                    <td style="border: 1px solid black; padding: 5px;">Widowed</td>
+                    <td style="border: 1px solid black; padding: 5px;">Divorced</td>
+                </tr>
+            </table>     
+        </form> 
+        <br>
+        <form>
+            <!-- <legend>User Information:</legend>   -->
+            <label for="fname">7. Present Adress:</label>&nbsp;
+            <input rows = "2" type="text1" id="fname" name="fname"  style="border-bottom: 1px solid black; width: calc(600px + 14px); padding: 2px;">
+            
+        </form>
+        <form>
+            <!-- <legend>User Information:</legend>   -->       
+            <input rows = "2" type="text1" id="fname" name="fname"  style="border-bottom: 1px solid black; width: calc(600px + 14px); padding: 2px;">
+        </form>
+        <form>
+            <!-- <legend>User Information:</legend>   -->
+            <label for="fname">8. Permanent Adress:</label>&nbsp;
+            <input rows = "2" type="text1" id="fname" name="fname"  style="border-bottom: 1px solid black; width: calc(600px + 14px); padding: 2px;">
+            
+        </form>
+        <form>
+            <!-- <legend>User Information:</legend>   -->       
+            <input rows = "2" type="text1" id="fname" name="fname"  style="border-bottom: 1px solid black; width: calc(600px + 14px); padding: 2px;">
+        </form>
+        <br>  
+        </fieldset>
+    </div>
+    <br>
+    <div class="row">
+        <form class="col-md-2">
+
+            <fieldset>
+                <h3>I hereby certify that the information provided above is correct to the best of my knowledge</h3>
+                <!-- <legend>User Information:</legend>   -->
+                <label for="fname">Signature</label>
+                <input type="text1" id="fname" name="fname"><br>
+                <label for="lname">Name</label>
+                <input type="text1" id="lname" name="lname"><br>
+            </fieldset> 
+        </form>
+       
+        <form   style="margin-left: 105px;">
+           
+            <fieldset>
+                <h3>To be verified by a Gazatted Officer:</h3>
+                <!-- <legend>User Information:</legend>   -->
+                <label for="fname">Signature</label>
+                <input type="text1" id="fname" name="fname"><br>
+                <label for="lname">CNIC</label>
+                <input type="text1" id="lname" name="lname"><br>
+                <label for="lname">Contact No</label>
+                <input type="text1" id="lname" name="lname"><br>
+            </fieldset>
+        </form>
+        
+       
+    </div>
+    <br>
+    <div class="bar1">
+       <strong> FOR OFFICE USE ONLY</strong>
+     </div>
+    <form class="outer-fieldset">
+        <!-- Remove outer fieldset here -->
+        <fieldset class="from6">
+           
+            <label for="Entery">Entered By:</label>
+            <input type="text1" id="personal no" name="personal no" style="width: calc(10ch + 14px);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Signature">Signature:</label>
+            <input type="text1" name="retired as/Designation" style="width: calc(10ch + 14px);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <!-- <img width="50px" height="50px" src="twi.png" alt=""><br> -->
+            <label for="date">Date:</label>
+            <input type="text1" name="date of retirement" style="width: calc(10ch + 16px);"> <br>                                                                              
+            <label for="checked" >Checked By:</label>
+            <input  class="bps" type="text1"  name="bps" style="width: calc(10ch + 12px);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Signature">Signature:</label>
+            <input type="text1" name="retired as/Designation" style="width: calc(10ch + 14px);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="date">Date:</label>
+            <input type="text1" name="date of retirement" style="width: calc(10ch + 16px);"> 
+            
+        </fieldset>
+    </form>
+    
+</div>
+
+
+</body>
+</html>
